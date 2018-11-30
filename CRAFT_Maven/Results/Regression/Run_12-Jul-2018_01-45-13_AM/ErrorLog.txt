@@ -1,0 +1,9 @@
+Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 27411
+Only local connections are allowed.
+Jul 12, 2018 1:46:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 15246
+Only local connections are allowed.
+Jul 12, 2018 1:51:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[1531374711.953][SEVERE]: Unable to receive message from renderer

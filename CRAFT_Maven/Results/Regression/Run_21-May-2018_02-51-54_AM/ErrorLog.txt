@@ -1,0 +1,21 @@
+Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 33841
+Only local connections are allowed.
+May 21, 2018 2:52:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+java.io.FileNotFoundException: Source 'G:\Selective\Automation\CRM\CRAFT_Maven\src\test\resources\Datatables\Common Testdata.xls' does not exist
+	at org.apache.commons.io.FileUtils.checkFileRequirements(FileUtils.java:1405)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1072)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1040)
+	at com.cognizant.Craft.DriverScript.initializeDatatable(DriverScript.java:646)
+	at com.cognizant.Craft.DriverScript.driveTestExecution(DriverScript.java:157)
+	at runners.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Exception in thread "pool-1-thread-1" com.cognizant.framework.FrameworkException: Error in creating run-time datatable: Copying the common datatable failed...
+	at com.cognizant.Craft.DriverScript.initializeDatatable(DriverScript.java:649)
+	at com.cognizant.Craft.DriverScript.driveTestExecution(DriverScript.java:157)
+	at runners.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

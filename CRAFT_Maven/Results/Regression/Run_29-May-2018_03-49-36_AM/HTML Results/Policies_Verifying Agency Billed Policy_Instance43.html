@@ -1,0 +1,290 @@
+<!DOCTYPE html> 
+<html> 
+	 <head> 
+		 <meta charset='UTF-8'> 
+		 <title>Selective Insurance CX Desktop (Regression Run QA) - Policies_Verifying Agency Billed Policy_Instance43 Automation Execution Results</title> 
+
+		 <style type='text/css'> 
+			 body { 
+				 background-color: #C1E1A6; 
+				 font-family: Verdana, Geneva, sans-serif; 
+				 text-align: center; 
+			 } 
+
+			 small { 
+				 font-size: 0.7em; 
+			 } 
+
+			 table { 
+				 width: 95%; 
+				 margin-left: auto; 
+				 margin-right: auto; 
+			 } 
+
+			 tr.heading { 
+				 background-color: #A9D0F5; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 font-weight: bold; 
+			 } 
+
+			 tr.subheading { 
+				 background-color: #E0E6F8; 
+				 color: #34495E; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.section { 
+				 background-color: #E0E6F8; 
+				 color: #333300; 
+				 cursor: pointer; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.subsection { 
+				 background-color: #EDEEF0; 
+				 cursor: pointer; 
+			 } 
+
+			 tr.content { 
+				 background-color: #EDEEF0; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 display: table-row; 
+			 } 
+
+			 td { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 word-wrap: break-word; 
+				 max-width: 450px; 
+			 } 
+
+			 th { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 word-break: break-all; 
+				 max-width: 450px; 
+			 } 
+
+			 td.justified { 
+				 text-align: justify; 
+			 } 
+
+			 td.pass { 
+				 font-weight: bold; 
+				 color: green; 
+			 } 
+
+			 td.fail { 
+				 font-weight: bold; 
+				 color: red; 
+			 } 
+
+			 td.done, td.screenshot { 
+				 font-weight: bold; 
+				 color: black; 
+			 } 
+
+			 td.debug { 
+				 font-weight: bold; 
+				 color: blue; 
+			 } 
+
+			 td.warning { 
+				 font-weight: bold; 
+				 color: orange; 
+			 } 
+			 img { 
+				 width:400px; 
+				 height:300px; 
+			 } 
+		 </style> 
+
+		 <script> 
+			 function toggleMenu(objID) { 
+				 if (!document.getElementById) return; 
+				 var ob = document.getElementById(objID).style; 
+				 if(ob.display === 'none') { 
+					 try { 
+						 ob.display='table-row-group'; 
+					 } catch(ex) { 
+						 ob.display='block'; 
+					 } 
+				 } 
+				 else { 
+					 ob.display='none'; 
+				 } 
+			 } 
+			 function toggleSubMenu(objId) { 
+				 for(i=1; i<10000; i++) { 
+					 var ob = document.getElementById(objId.concat(i)); 
+					 if(ob === null) { 
+						 break; 
+					 } 
+					 if(ob.style.display === 'none') { 
+						 try { 
+							 ob.style.display='table-row'; 
+						 } catch(ex) { 
+							 ob.style.display='block'; 
+						 } 
+					 } 
+					 else { 
+						 ob.style.display='none'; 
+					 } 
+				 } 
+			 } 
+		 </script> 
+	 </head> 
+
+	 <body> 
+		 <table id='header'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th colspan='4' style='font-family:Copperplate Gothic; font-size:1.4em;'> 
+						 Selective Insurance CX Desktop (Regression Run QA) - Policies_Verifying Agency Billed Policy_Instance43 Automation Execution Results 
+					 </th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Date&nbsp;&&nbsp;Time</th> 
+					 <th>&nbsp;:&nbsp;29-May-2018&nbsp;03:50:22&nbsp;AM</th> 
+					 <th>&nbsp;Iteration&nbsp;Mode</th> 
+					 <th>&nbsp;:&nbsp;RUN_ONE_ITERATION_ONLY</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Start&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+					 <th>&nbsp;End&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Browser/Platform</th> 
+					 <th>&nbsp;:&nbsp;CHROME&nbsp;on&nbsp;WINDOWS</th> 
+					 <th>&nbsp;Execution&nbsp;on</th> 
+					 <th>&nbsp;:&nbsp;Local&nbsp;Machine</th> 
+				 </tr> 
+			 </thead> 
+		 </table> 
+
+		 <table id='main'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th>Step No</th> 
+					 <th>Step Name</th> 
+					 <th>Description</th> 
+					 <th>Status</th> 
+					 <th>Step Time</th> 
+					 <th>ScreenShot</th> 
+				 </tr> 
+			 </thead> 
+
+			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Iteration1')">+ Iteration: 1</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Iteration1' style='display:table-row-group'> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1InvokeApplication')">&nbsp;+ InvokeApplication</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1InvokeApplication1'> 
+					 <td>1</td> 
+					 <td class='justified'>Invoke Application</td> 
+					 <td class='justified'>Invoke the application under test @ https://selectiveinsurancecrmqa.crm.dynamics.com/main.aspx</td> 
+					 <td>DONE</td> 
+					 <td><small>29-May-2018 03:50:32 AM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1singleSignOn')">&nbsp;+ singleSignOn</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1singleSignOn1'> 
+					 <td>2</td> 
+					 <td class='justified'>Mouse Click Action on Stale Element</td> 
+					 <td class='justified'>Able to locate and click to element !</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>29-May-2018 03:50:37 AM</small></td> 
+					 <td><img src='..\Screenshots\Policies_Verifying Agency Billed Policy_Instance43_29-May-2018_03-50-36_AM_MouseClickActiononStaleElement.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1singleSignOn2'> 
+					 <td>3</td> 
+					 <td class='justified'>Enter Text Action</td> 
+					 <td class='justified'>Text Entered Successfully !</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>29-May-2018 03:50:39 AM</small></td> 
+					 <td><img src='..\Screenshots\Policies_Verifying Agency Billed Policy_Instance43_29-May-2018_03-50-38_AM_EnterTextAction.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1singleSignOn3'> 
+					 <td>4</td> 
+					 <td class='justified'>Mouse Click Action on Stale Element</td> 
+					 <td class='justified'>Able to locate and click to element !</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>29-May-2018 03:50:41 AM</small></td> 
+					 <td><img src='..\Screenshots\Policies_Verifying Agency Billed Policy_Instance43_29-May-2018_03-50-40_AM_MouseClickActiononStaleElement.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1singleSignOn4'> 
+					 <td>5</td> 
+					 <td class='justified'>Single Sign On</td> 
+					 <td class='justified'>Enter Email Address</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>29-May-2018 03:51:10 AM</small></td> 
+					 <td><img src='..\Screenshots\Policies_Verifying Agency Billed Policy_Instance43_29-May-2018_03-51-09_AM_SingleSignOn.png'></img></td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1singleSignOn5'> 
+					 <td>6</td> 
+					 <td class='justified'>Single Sign On</td> 
+					 <td class='justified'>handel Pending Emial pop-up</td> 
+					 <td class='pass'>PASS</td> 
+					 <td><small>29-May-2018 03:51:15 AM</small></td> 
+					 <td><img src='..\Screenshots\Policies_Verifying Agency Billed Policy_Instance43_29-May-2018_03-51-15_AM_SingleSignOn.png'></img></td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1verifyAgencyBilledPolicy')">&nbsp;+ verifyAgencyBilledPolicy</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1verifyAgencyBilledPolicy1'> 
+					 <td>7</td> 
+					 <td class='justified'>Validation of Agency Billed Policy</td> 
+					 <td class='justified'>Exception Occured: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@id='contentIFrame1']"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'GLSRCEDDEVPL126', ip: '10.137.3.216', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\jainak1\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 9e1f8784c7c6be44fb4984b1d9abe667
+*** Element info: {Using=xpath, value=//iframe[@id='contentIFrame1']}</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>29-May-2018 03:52:40 AM</small></td> 
+					 <td><img src='..\Screenshots\Policies_Verifying Agency Billed Policy_Instance43_29-May-2018_03-52-40_AM_ValidationofAgencyBilledPolicy.png'></img></td> 
+				 </tr> 
+			 </tbody> 
+		 </table> 
+
+		 <table id='footer'> 
+			 <colgroup> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+			 </colgroup> 
+
+			 <tfoot> 
+				 <tr class='heading'> 
+					 <th colspan='4'>Execution Duration: 2 minute(s), 19 second(s)</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <td class='pass'>&nbsp;Steps passed</td> 
+					 <td class='pass'>&nbsp;: 5</td> 
+					 <td class='fail'>&nbsp;Steps failed</td> 
+					 <td class='fail'>&nbsp;: 1</td> 
+				 </tr> 
+			 </tfoot> 
+		 </table> 
+	 </body> 
+</html>
